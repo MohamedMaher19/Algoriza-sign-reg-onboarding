@@ -19,8 +19,6 @@ class RegisterScreen extends StatelessWidget {
   final TextEditingController passwordController = TextEditingController();
   final formKey = GlobalKey<FormState>();
 
-// اه
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +37,6 @@ class RegisterScreen extends StatelessWidget {
                               topImage,
                             ),
                             fit: BoxFit.cover)),
-                    // child: Image.asset(topImage , fit: BoxFit.fill,),
                   ),
                   Positioned(
                       top: 30,
